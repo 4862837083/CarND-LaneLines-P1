@@ -44,7 +44,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 One potential shortcoming would be the lane line detection is not very stable in a video.
 
-Another shortcoming could be when the car is turning. This pipeline is easy to be affected by noises(light, tree, cars, etc)
+Another shortcoming could be this pipeline is easy to be affected by noises(light, tree, cars, etc)
 
 
 
@@ -52,4 +52,4 @@ Another shortcoming could be when the car is turning. This pipeline is easy to b
 
 A possible improvement would be to introduce a momentum to the lane line among adjacent frames to prevent it from sudden movement. 
 
-Another potential improvement could be to fine tune the parameter of canny edge detection, hough transformation to further rule out noises.
+Another potential improvement could be to fine tune the parameter of canny edge detection, hough transformation to further rule out noises based on more data, diffent road, different light condition, etc.
